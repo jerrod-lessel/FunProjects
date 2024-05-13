@@ -13,7 +13,7 @@ WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Space Dodge")
 
 # Background image and scale it to the size of the window
-BG = pygame.transform.scale(pygame.image.load("stars.jpg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("stars.jpg"), (WIDTH, HEIGHT)) # add the path and file name of the image where it says "stars.jpg"
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
